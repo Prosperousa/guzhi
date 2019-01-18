@@ -44,10 +44,12 @@
                         <i class="iconfont icon-guanwangfangwen"></i>
                     </li>
                 </a>
+                <a href=".//erwema.html">
                     <li  class="gongzonghao">
                         <p>公众号</p>
                         <i class="iconfont icon-gongzhonghaoguanli"></i>
                     </li>
+                  </a>
                 <a href="./draw.html" style="text-decoration: none;">
                     <li  class="huodong">
                         <p>活动</p>
@@ -166,15 +168,15 @@
         jia.eq(i).toggleClass('hot');
         $(".tt .son").eq(i).slideToggle('slow');
     })
-    let tijiao=document.querySelector("nav .gongzonghao");
-    let mask=document.querySelector(".mask");
-    let quxiao=document.querySelector(".mask .upper .tu p");
-    tijiao.onclick=function(){
-        mask.style.display="block";
-    };
-    quxiao.onclick=function(){
-        mask.style.display="none";
-    }
+    // let tijiao=document.querySelector("nav .gongzonghao");
+    // let mask=document.querySelector(".mask");
+    // let quxiao=document.querySelector(".mask .upper .tu p");
+    // tijiao.onclick=function(){
+    //     mask.style.display="block";
+    // };
+    // quxiao.onclick=function(){
+    //     mask.style.display="none";
+    // }
     jQuery(function(){
 //使用canvas生成
         jQuery('#qrcode').qrcode({
